@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>product upload</title>
+</head>
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #f5f5d5;
+}
+h1 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+section {
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+    background-color: #e0dfcc;
+    border-radius:15px;
+}
+
+section h3 {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px auto;
+    text-align: center;
+}
+section p{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+section .p1{
+	height: 30px;
+	line-height: 30px;
+	margin-left: 60px;
+}
+section .action{
+	color:#f00;
+	font-size: 18px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+</style>
+
+<body>
+    <h1>将一个项目上传到github上，并得到一个网址能访问已发布的项目
+	</h1>
+    <hr>
+    <section>
+        <div>
+            <h3>创建项目秘钥</h3>
+            <p>a) 项目文件例如：test文件夹——>打开文件夹；</p>
+            <p>b) 鼠标右键——>调出gitBash；</p>
+            <p>c) 生成秘钥——>输入ssh-keygen -t rsa（回车）,出现其他的命令，则一直按回车，直到出现2048；</p>
+            <p>d) 复制秘钥——>之后打开路径，C盘/用户/用户名/.ssh文件夹，打开id_rsa.pub，对其中的内容全选并进行复制；</p>
+        </div>
+        <div>
+            <h3>github上粘贴秘钥，与本地数据进行远程连接</h3>
+            <p>a) 打开github官网，进入settings，左边选项列表里点击SSH and GPG keys，在右边出现一些内容，点击绿色按钮（New SSH key）；</p>
+            <div class="p1">title——>写自己项目名字（英文）</div>
+            <div class="p1">key——>将id_rsa.pub文件中的内容粘贴到内容框里,再点击add SSH key</div>
+            <p>b) 点击Your profile——>repositories——>new(新建)</p>
+           	<div class="p1">repository name——>项目名(test)</div>
+           	<div class="p1">description——>项目描述（可以为中文），其余默认</div>
+           	<p>c) 点击Create repository</p>
+        </div>
+        <div>
+            <h3>将项目上传</h3>
+            <p>(1) git init——>回车后有一个.git文件夹</p>
+            <p>(2) git add .——>将项目文件添加到远程git上</p>
+            <p>(3) git commit -m “first commit”——>提交的日志描述</p>
+            <p>(4) git remote add origin git@github.com:(github的用户名)/test.git (项目名)</p>
+            <p>(5) git push -u origin master——>回车</p>
+            <div class="p1">如果出现yes/no?输入	yes，如果没有，就不用管了</div>
+			<div class="p1">出现master——>master，就表示成功了</div>
+        </div>
+            <div>
+            <h3>通过外网访问自己的项目--创建github的分支</h3>
+            <p>(1) git branch gh-pages——>回车</p>
+            <p>(2) git checkout gh-pages——>回车</p>
+            <p>(3) git push -u origin gh-pages——>回车</p>
+            <p>(4) 出现gh-pages——>gh-pages，就算成功了</p>
+            <p>(5) 在浏览器打开自己项目网址：用户名.githut.io/项目名</p>
+            <div class="p1">例如：zgh9501.github.io/test</div>
+			<div class="action">注意: ajax请求的网址必须以https开头，因为github是以https请求为主的</div>
+        </div>
+    </section>
+</body>
+
+</html>
