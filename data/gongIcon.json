@@ -56,6 +56,13 @@
             "iconUrl": "https://zgh9501.github.io/testImg/search.png",
             "iconLabel": "销量展示",
             "children": null
+        }, {
+            "id": 109,
+            "code": "109",
+            "description": "",
+            "iconUrl": "https://zgh9501.github.io/testImg/phone.png",
+            "iconLabel": "财务数据展示",
+            "children": null
         }]
     },{
     	"text": "分析",
@@ -79,6 +86,20 @@
             "description": "",
             "iconUrl": "https://zgh9501.github.io/testImg/more.png",
             "iconLabel": "市场营销",
+            "children": null
+        }, {
+            "id": 102,
+            "code": "102",
+            "description": "",
+            "iconUrl": "https://zgh9501.github.io/testImg/msg.png",
+            "iconLabel": "信息分析",
+            "children": null
+        }, {
+            "id": 103,
+            "code": "103",
+            "description": "",
+            "iconUrl": "https://zgh9501.github.io/testImg/email.png",
+            "iconLabel": "邮件数量分析",
             "children": null
         }]
     }]
