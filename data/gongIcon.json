@@ -8,21 +8,21 @@
             "id": 101,
             "code": "101",
             "description": "",
-            "iconUrl":"https://zgh9501.github.io/testData/image/home.png",
+            "iconUrl":"https://zgh9501.github.io/testImg/home.png",
             "iconLabel": "销售管理",
             "children": null
         }, {
             "id": 102,
             "code": "102",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/chat.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/msg.png",
             "iconLabel": "财务管理",
             "children": null
         }, {
             "id": 103,
             "code": "103",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/email.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/email.png",
             "iconLabel": "人力资源管理",
             "children": null
         }]
@@ -32,28 +32,28 @@
             "id": 104,
             "code": "104",
             "description": "",
-            "iconUrl":"https://zgh9501.github.io/testData/image/about.png",
+            "iconUrl":"https://zgh9501.github.io/testImg/about.png",
             "iconLabel": "财政看板",
             "children": null
         }, {
             "id": 105,
             "code": "105",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/set.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/set.png",
             "iconLabel": "报表展示",
             "children": null
         }, {
             "id": 106,
             "code": "106",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/map.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/map.png",
             "iconLabel": "图标展示",
             "children": null
         }, {
             "id": 107,
             "code": "107",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/search.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/search.png",
             "iconLabel": "销量展示",
             "children": null
         }]
@@ -63,21 +63,21 @@
             "id": 108,
             "code": "108",
             "description": "",
-            "iconUrl":"https://zgh9501.github.io/testData/image/about.png",
+            "iconUrl":"https://zgh9501.github.io/testImg/about.png",
             "iconLabel": "专题分析",
             "children": null
         }, {
             "id": 109,
             "code": "109",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/phone.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/phone.png",
             "iconLabel": "财务数据综合分析",
             "children": null
         }, {
             "id": 110,
             "code": "110",
             "description": "",
-            "iconUrl": "https://zgh9501.github.io/testData/image/more.png",
+            "iconUrl": "https://zgh9501.github.io/testImg/more.png",
             "iconLabel": "市场营销",
             "children": null
         }]
