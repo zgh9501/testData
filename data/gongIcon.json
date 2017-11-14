@@ -94,6 +94,20 @@
             "iconUrl": "https://zgh9501.github.io/testImg/phone.png",
             "iconLabel": "财务数据综合分析",
             "children": null
+        }, {
+            "id": 107,
+            "code": "107",
+            "description": "",
+            "iconUrl": "https://zgh9501.github.io/testImg/search.png",
+            "iconLabel": "销量展示",
+            "children": null
+        }, {
+            "id": 108,
+            "code": "108",
+            "description": "",
+            "iconUrl": "https://zgh9501.github.io/testImg/phone.png",
+            "iconLabel": "财务数据展示",
+            "children": null
         }]
     }]
 }
