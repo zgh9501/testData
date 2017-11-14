@@ -94,13 +94,6 @@
             "iconUrl": "https://zgh9501.github.io/testImg/msg.png",
             "iconLabel": "信息分析",
             "children": null
-        }, {
-            "id": 113,
-            "code": "113",
-            "description": "",
-            "iconUrl": "https://zgh9501.github.io/testImg/email.png",
-            "iconLabel": "邮件数量分析",
-            "children": null
         }]
     }]
 }
