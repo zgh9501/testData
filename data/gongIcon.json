@@ -87,20 +87,6 @@
             "iconUrl": "https://zgh9501.github.io/testImg/more.png",
             "iconLabel": "市场营销",
             "children": null
-        }, {
-            "id": 110,
-            "code": "110",
-            "description": "",
-            "iconUrl": "https://zgh9501.github.io/testImg/phone.png",
-            "iconLabel": "财务数据综合分析",
-            "children": null
-        }, {
-            "id": 111,
-            "code": "111",
-            "description": "",
-            "iconUrl": "https://zgh9501.github.io/testImg/more.png",
-            "iconLabel": "市场营销",
-            "children": null
         }]
     }]
 }
