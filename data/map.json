@@ -15,7 +15,7 @@
     "latitude": 22.547672,
     "content": "2个商家",
     "num":{
-        "currentIncome":"7899.45",
+        "currentIncome":"-7899.45",
         "currentFee":"567.12",
         "yearRise":"98%",
         "huanRise":"23%"
@@ -28,7 +28,7 @@
     "num":{
         "currentIncome":"3466.89",
         "currentFee":"2798.66",
-        "yearRise":"40%",
+        "yearRise":"-40%",
         "huanRise":"67%"
     }      
 },{
