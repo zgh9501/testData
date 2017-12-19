@@ -2,40 +2,88 @@
     "id": 1,
     "longitude": 113.940005,
     "latitude": 22.546862,
-    "content": "4个银行"
+    "content": "4个银行",
+    "num":{
+        "currentIncome":"1237.56",
+        "currentFee":"893.00",
+        "yearRise":"12%",
+        "huanRise":"13%"
+    }      
 },{
     "id": 2,
     "longitude": 113.939463,
     "latitude": 22.547672,
-    "content": "2个商家"
+    "content": "2个商家",
+    "num":{
+        "currentIncome":"7899.45",
+        "currentFee":"567.12",
+        "yearRise":"98%",
+        "huanRise":"23%"
+    }      
 },{
     "id": 3,
     "longitude": 113.94108,
     "latitude": 22.546096,
-    "content": "腾讯项目展示会, 以下信息根据您的兴趣推荐,中国空军赴西太演习 日自卫队：日机紧急起飞应对,123133"
+    "content": "腾讯项目展示会, 以下信息根据您的兴趣推荐,中国空军赴西太演习 日自卫队：日机紧急起飞应对,123133",
+    "num":{
+        "currentIncome":"3466.89",
+        "currentFee":"2798.66",
+        "yearRise":"40%",
+        "huanRise":"67%"
+    }      
 },{
     "id": 4,
     "longitude": 113.939446,
     "latitude": 22.546171,
-    "content": "3个肉松店"
+    "content": "3个肉松店",
+    "num":{
+        "currentIncome":"22978.90",
+        "currentFee":"1342.11",
+        "yearRise":"77%",
+        "huanRise":"3%"
+    }      
 },{
     "id": 5,
     "longitude": 113.939279,
     "latitude": 22.546998,
-    "content": "众泰旗舰店"
+    "content": "众泰旗舰店",
+    "num":{
+        "currentIncome":"9087.23",
+        "currentFee":"100.34",
+        "yearRise":"72%",
+        "huanRise":"93%"
+    }      
 },{
     "id": 6,
     "longitude": 114.037238,
     "latitude": 22.616716,
-    "content": "北站枢纽站"
+    "content": "北站枢纽站",
+    "num":{
+        "currentIncome":"7659.12",
+        "currentFee":"558.33",
+        "yearRise":"45%",
+        "huanRise":"67%"
+    }      
 },{
     "id": 7,
     "longitude": 114.04245,
     "latitude": 22.639252,
-    "content": "牛栏前，2个派派"
+    "content": "牛栏前，2个派派",
+    "num":{
+        "currentIncome":"898812.45",
+        "currentFee":"773.54",
+        "yearRise":"88%",
+        "huanRise":"16%"
+    }      
 },{
     "id": 8,
     "longitude": 114.04552,
     "latitude": 22.63257,
-    "content": "沙吓3个KTV"
+    "content": "沙吓3个KTV",
+    "num":{
+        "currentIncome":"33323.66",
+        "currentFee":"2100.00",
+        "yearRise":"75%",
+        "huanRise":"50%"
+    }      
 }]
